@@ -33,6 +33,7 @@ h1 {
     justify-content: space-between;
     max-height: 640px;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .index_text {
@@ -75,4 +76,16 @@ legend {
 #label_comments {
     display: flex;
     align-self: center;
+}
+
+.index_links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px 0px;
+}
+
+ul li {
+    padding: 20px 0px;
 }
